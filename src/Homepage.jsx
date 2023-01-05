@@ -22,7 +22,13 @@ export const Homepage=()=> {
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.</p>
-      <a href="http://localhost:3000/Login">Healthify</a>
+      <a href="http://localhost:3000/Login" className='btn btn-light'>Healthify
+      </a>
+      {"    "}{"    "}
+      <Link to="/Bloodbank" className="btn btn-light ">
+                Bloodbank
+              </Link>
+
     </div>
     <ul class="social">
       <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a></li>
