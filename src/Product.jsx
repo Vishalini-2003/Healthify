@@ -60,17 +60,20 @@ function Product() {
     <div className="App">
       <nav className='justify-content-between'>
             <h4>Mansahaai</h4>
-            
+            <Link to="/Bloodbank" className="btn btn-light " >
+                BloodBank
+              </Link>
+           
         <Link to="/Login" className="btn btn-light " >
                 Login
               </Link>
         </nav>
       <h1>HealthifyMart</h1>
       <h2>Products</h2>
-      <ul>
+      
         {products.map((product) => (
            <>
-            <th style={{ border: '0' }}>
+            <th >
               <div className="products">
               <div className="Prod">
                 <img src={product.imgadd} alt="image" />
@@ -85,10 +88,10 @@ function Product() {
               </div>
               </div>
             </th>
-          </>
+             </>
         ))}
-      </ul>
-      <h2 className='p-5'>Shopping Cart</h2>
+      
+      <h2 className='p-5'>Medical Cart</h2>
       <table>
         <thead>
           <tr>

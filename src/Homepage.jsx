@@ -16,13 +16,10 @@ export const Homepage=()=> {
     <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
     <div class="overlay"></div>
     <div class="text">
-      <h2>Never Stop To </h2> 
-      <h3>Exploring The World</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <a href="http://localhost:3000/Login" className='btn btn-light'>Healthify
+      <h2>Say yes  </h2> 
+      <h3>to good health!!!</h3>
+      <p>At our medical center, we offer a wide range of services to meet the healthcare needs of our patients. Our team of experienced doctors and nurses are dedicated to providing the highest quality of care in a welcoming and comfortable environment. From routine check-ups and vaccinations to more specialized treatments and surgeries, we have the expertise and resources to address a variety of medical concerns.</p>
+      <a href="http://localhost:3000/Product" className='btn btn-light'>Healthify
       </a>
       {"    "}{"    "}
       <Link to="/Bloodbank" className="btn btn-light ">
